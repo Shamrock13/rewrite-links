@@ -1,6 +1,6 @@
 export default {
 	async fetch(request): Promise<Response> {
-		const OLD_URL = "sham.cloud";
+		const OLD_URL = "www.sham.cloud";
 		const NEW_URL = "www.fnb-online.com";
 
 		class AttributeRewriter {
